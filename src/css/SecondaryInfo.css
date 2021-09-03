@@ -1,0 +1,52 @@
+.SecondaryInfo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(242, 242, 242, 0.1);
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.SecondaryInfo span {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.SecondaryInfo .value {
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.SecondaryInfo .icon {
+    height: 30px;
+    width: auto;
+}
+
+.SecondaryInfo .sun-dark,
+.SecondaryInfo .mid-val,
+.SecondaryInfo .sun {
+    position: relative;
+    width: auto;
+}
+
+.SecondaryInfo .sun-dark {
+    bottom: 3px;
+    height: 35px;
+}
+
+.SecondaryInfo .sun {
+    bottom: 5px;
+    height: 40px;
+}
+
+.SecondaryInfo .invert {
+    filter: invert();
+}
+
+.SecondaryInfo .mid-val {
+    bottom: 10px;
+}

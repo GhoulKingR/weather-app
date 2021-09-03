@@ -1,0 +1,81 @@
+.MainWhether {
+    background: linear-gradient(135deg, #AECDFF, #5896FD);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.CityViewWhether {
+    position: fixed;
+    bottom: 350px;
+    left: 0px;
+    right: 0px;
+}
+
+@media (max-height: 544px) {
+    .CityViewWhether {
+        bottom: unset;
+        top: 15px;
+    }
+
+    .CityViewWhether .degrees,
+    .CityViewWhether .icon {
+        display: none;
+    }
+}
+
+@media (min-height: 750px) {
+    .CityViewWhether {
+        bottom: 500px;
+    }
+}
+
+.MainWhether,
+.CityViewWhether {
+    text-align: center;
+    color: white;
+}
+
+.MainWhether .head,
+.CityViewWhether .head,
+.MainWhether .icon {
+    font-weight: bolder;
+}
+
+.CityViewWhether .head {
+    font-size: large;
+}
+
+.MainWhether .head {
+    font-size: x-large;
+}
+
+.CityViewWhether .degrees,
+.MainWhether .degrees {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.MainWhether .degrees sup {
+    font-size: small;
+    vertical-align: top;
+}
+
+.CityViewWhether .subhead,
+.MainWhether .subhead {
+    font-weight: lighter;
+    font-size: x-small;
+}
+
+.CityViewWhether .icon,
+.MainWhether .icon {
+    width: auto;
+}
+
+.MainWhether .icon {
+    height: 250px;
+}
+
+.CityViewWhether .icon {
+    height: 100px;
+}

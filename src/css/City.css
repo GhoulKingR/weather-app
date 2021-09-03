@@ -1,0 +1,42 @@
+.city {
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    min-width: 150px;
+}
+
+.city * {
+    text-shadow: 0px 3px 50px black;
+}
+
+.city .icons {
+    height: 100px;
+    width: auto;
+}
+
+.city .degrees {
+    font-size: xx-large;
+    color: white;
+}
+
+.city .location {
+    font-size: x-small;
+    font-weight: bold;
+    color: white;
+}
+
+.left {
+    background: linear-gradient(#9387df, #806EF8);
+    transform: scale(.8);
+}
+
+.middle {
+    background: linear-gradient(#AECDFF, #5896FD);
+}
+
+.right {
+    background: linear-gradient(#FFA4FB, #806EF8);
+    transform: scale(.8);
+}

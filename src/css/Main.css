@@ -1,0 +1,41 @@
+@media (min-width: 500px)  {
+    .Main {
+        width: 500px;
+    }
+    
+    .mainContainer .first {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 360px) {
+    .heading-container .main {
+        font-size: small;
+    }
+
+    .MainWhether .head {
+        font-size: small;
+    }
+
+    .MainWhether .icon,
+    .Navigator,
+    .SecondaryInfo {
+        transform: scale(.8);
+    }
+}
+
+@media (max-width: 319px) {
+    .MainWhether .icon {
+        transform: scale(.4);
+        position: relative;
+        right: 18px;
+    }
+}
+
+@media (max-width: 290px) {
+    .MainWhether .icon {
+        position: relative;
+        right: 25px;
+    }
+}

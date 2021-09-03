@@ -1,0 +1,30 @@
+.search-body {
+    margin-top: 15px;
+    background-color: rgba(100, 100, 100, .3);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.search-body .Location {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.search-body .Location .State{
+    font-size: small;
+}
+
+.search-body .Location .temperature {
+    font-size: small;
+    font-weight: bold;
+}
+
+.search-body .Location .mini-whether {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+}

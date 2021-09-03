@@ -1,0 +1,18 @@
+.days {
+    margin-top: 18px;
+    padding-top: 3px;
+}
+
+.day {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+}
+
+.day .icon {
+    height: 40px;
+    width: auto;
+    position: relative;
+    bottom: 15px;
+    vertical-align: top;
+}

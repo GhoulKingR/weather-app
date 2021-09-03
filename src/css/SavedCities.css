@@ -1,0 +1,18 @@
+.saved-cities {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.saved-cities .back-button {
+    color: rgb(0, 5, 19);
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.saved-cities .title {
+    display: flex;
+    justify-content: space-between;
+}

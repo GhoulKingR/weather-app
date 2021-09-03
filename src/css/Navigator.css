@@ -1,0 +1,46 @@
+.Navigator {
+    padding-top: 50px;
+}
+
+.Navigator .day {
+    font-weight: bold;
+}
+
+.Navigator .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navigator .body {
+    display: flex;
+    justify-content: center;
+}
+
+.Navigator .other-days {
+    font-size: smaller;
+}
+
+.Navigator .body .item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(225, 225, 225, .1);
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Navigator .body .selected {
+    background: linear-gradient(135deg, rgb(110, 252, 198), rgb(85, 0, 255));
+    color: white;
+}
+
+.Navigator .body .item .icon {
+    height: 70px;
+}
+
+.Navigator .body .item div sup,
+.Navigator .body .item .time {
+    font-size: xx-small;
+}
