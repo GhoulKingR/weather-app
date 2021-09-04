@@ -243,6 +243,7 @@ class App extends Component {
 
   render() {
     const {mode, loadingScreen, searchStyle, cityViewStyle, mainStyle, main, temporaryExpansionJutsu, initialized, cityView} = this.state;
+    document.body.style.backgroundColor = this.itemsStyle[mode];
     return (
       <div style={{ ...temporaryExpansionJutsu, backgroundColor: this.itemsStyle[mode], padding: "20px" }} className="first">
         {
