@@ -20,7 +20,7 @@ class Heading extends Component {
 
         return (
             <div className="heading-container" style={{backgroundColor}}>
-                <span><div className="main">Good {greeting}</div><div className="sub">Prepare for {remark}</div></span>
+                <span><div className="main">Good {greeting}</div><div className="sub">Prepare for {remark}.</div></span>
                 <span>
                     <span className="items" style={DarkModeStyle[this.props.mode]} onClick={()=>this.props.onToggleSearch()}>
                         <img src="/icons/search.png" alt="" className={search}/>
